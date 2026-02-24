@@ -5,7 +5,7 @@ PROXY="https://ghproxy.net/"
 # 你的 GitHub 用户名和仓库名 (记得替换下面的 chuanyin888)
 REPO="chuanyin888/earnapp-deploy"
 # Release 的版本号
-VERSION="v1.0.0"
+VERSION="1.0.0"
 
 BASE_URL="${PROXY}https://github.com/${REPO}/releases/download/${VERSION}"
 
@@ -26,3 +26,4 @@ bash install_offline.sh
 # 可选清理
 
 # cd /tmp && rm -rf $WORK_DIR
+
