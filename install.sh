@@ -24,4 +24,5 @@ echo "=> 开始执行离线安装脚本..."
 bash install_offline.sh
 
 # 可选清理
+
 # cd /tmp && rm -rf $WORK_DIR
